@@ -1,0 +1,6 @@
+primary/node_modules
+primary/dist
+primary/.env
+secondary/node_modules
+secondary/dist
+secondary/.env

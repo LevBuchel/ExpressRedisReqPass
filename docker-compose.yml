@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  primary:
+    build: ./primary
+    ports:
+      - "3000:3000"
+    environment:
+      - SECONDARY_HOST=http://secondary:3001
+    depends_on:
+      - secondary
+
+  secondary:
+    build: ./secondary
+    ports:
+      - "3001:3001"
