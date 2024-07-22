@@ -1,4 +1,4 @@
-# Node.js TypeScript Multi-Service Project
+# Node.js Express Inner Request
 
 This project contains two services, `primary` and `secondary`, both implemented using Node.js with TypeScript. The `primary` service makes an HTTP request to the `secondary` service using Axios and returns a formatted response.
 
