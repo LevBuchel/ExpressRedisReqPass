@@ -2,7 +2,7 @@
 
 This project contains two services, `primary` and `secondary`, both implemented using Node.js with TypeScript. The `primary` service makes an HTTP request to the `secondary` service using Axios and returns a formatted response.
 
-Note: Edit the .env in each folder to replace the localhost hostname.
+**Note: Edit the .env in each folder to replace the localhost hostname.**
 
 ## Routes
 
