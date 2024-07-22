@@ -4,6 +4,8 @@ This project contains two services, `primary` and `secondary`, both implemented 
 
 **Note: Edit the .env in each folder to replace the localhost hostname.**
 
+For quick run, from the root folder use this command: ```docker-compose up --build```
+
 ## Routes
 
 ### Primary Service
